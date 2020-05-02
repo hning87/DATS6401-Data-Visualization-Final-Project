@@ -1,5 +1,5 @@
 # DATS6401-Data-Visualization-Final-Project
-#Most Innovative Country Analysis
+# Most Innovative Country Analysis
 
 ## Development Platforms
 * Tableau
