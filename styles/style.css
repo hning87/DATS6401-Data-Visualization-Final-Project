@@ -1,0 +1,388 @@
+html {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: normal 0.78em arial, sans-serif;
+	background-image: url(../images/paper.jpg);
+	color: #555;
+	
+}
+
+p {
+	padding: 0 0 16px 0;
+	line-height: 1.7em;
+	font: normal 175% 'Times New Roman', arial, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font: normal 175% 'Times New Roman', arial, sans-serif;
+	color: #111;
+	margin: 0 0 15px 15px;
+	padding: 15px 0 5px 0;
+	font-weight: bold;
+}
+
+h2 {
+	color: #222;
+}
+
+h3 {
+	color: #333;
+}
+
+h4, h5, h6 {
+	margin: 0;
+	padding: 0 0 5px 0;
+	font: normal 120% arial, sans-serif;
+	color: #555;
+}
+
+h5, h6 {
+	font: italic 95% arial, sans-serif;
+	padding: 0 0 15px 0;
+	color: #000;
+}
+
+h6 {
+	color: #888;
+}
+
+a, 
+a:hover {
+	outline: none;
+	color: #111;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	margin: 2px 0 22px 25px;
+	
+}
+
+ul li {
+	display: block;
+	font: normal 125% 'Times New Roman', arial, sans-serif;
+	color: #111;
+	margin: 0 0 6px 0;
+	padding: 0 0 0 25px;
+	background: url(../images/icons8-list-64.png) no-repeat left center;
+	background-size: 2%;
+}
+
+
+#main, #header, #logo, #menubar, #site_content, #footer {
+	margin-left: auto;
+	margin-right: auto;
+ }
+ 
+ #main {
+	width: 100%;
+
+ }
+ 
+ #header {
+	width: 1000px;
+ }
+ 
+
+ #logo {
+	width: 1000px;
+	position: relative;
+	height: 500px;
+	background: url(../images/innovation.jpg) no-repeat;
+	background-size: 100%;
+	background-position: 80% 40%;
+	/* margin-bottom: 32px; */
+
+}
+
+#logo_text {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+
+#logo h1, #logo h2 {
+	font: normal 275% 'Times New Roman', arial, sans-serif;
+	border-bottom: 0;
+	color: white;
+	text-transform: none;
+	margin: 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
+	padding: 10px 0 0 0;
+	color: white;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+#logo_text h2, #logo_text h2 a, #logo_text h2 a:hover {
+	padding: 10px 0 0 0;
+	color: black;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.logo_color {
+	color: #555;
+}
+
+#logo_text h2 {
+	font-size: 175%;
+	padding: 0;
+	color: maroon;
+}
+
+/*  
+#menubar {
+	width: 1000px;
+	height: 35px;
+	padding: 10px 0 0 0;
+	margin: 0 0 0 0;
+	z-index: 1;
+	float: left;
+	background: rgb(152, 170, 249);
+} */
+
+
+
+ul#menu {
+	position: relative;
+	top: 200px;
+	float: left;
+	margin: 0;
+}
+
+ul#menu li {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	font: normal 175% arial, sans-serif;
+}
+
+ul#menu li a, span {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	letter-spacing: 0em;
+	font: normal 100% arial, sans-serif;
+	text-transform: uppercase;
+	display: block;
+	float: inline-start;
+	height: 20px;
+	text-decoration: none;
+
+	text-align: center;
+	color: #fff;
+	border: 0; 
+}
+
+ul#menu li.selected a {
+	height: 25px;
+	color: #111;
+	padding: 10px 22px 5px 16px;
+	font-weight:bold;
+	
+}
+
+ul#menu li.selected {
+	margin: 0 0 0 0;
+	background: #f8f8f8;
+}
+
+ul#menu li a:hover {
+	color: #111;
+}
+
+#site_content {
+	width: 1000px;
+	/* overflow: hidden; */
+	background: #f8f8f8;
+}
+
+
+#site_content p{
+	line-height: 1.7em;
+	font: normal 135% 'Times New Roman', arial, sans-serif;
+	color:#222;
+	margin: 0 0 15px 15px;
+	padding: 0 20px 15px 10px;
+}
+
+
+#footer {
+	width: 100%;
+	height: 33px;
+	padding: 15px 0 25px 0;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size: 120%;
+}
+
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	background-color: #f8f8f8;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav ul {
+	width: 200px;
+	padding: 4px 0 0 0;
+	/* margin: 0px 0 50px 0; */
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.sidenav ul li {
+	display: block;
+	position: relative;
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+ul#mySidenav li a,
+ul#mySidenav li a:hover {
+	width: 150px;
+	position: relative;
+	background: url(../images/link.png) no-repeat left center;
+	background-size: 8%;
+	display: block;
+	color: #111;
+	text-decoration: underline blue;
+	font-size: 12px;
+	padding-top: 10px;
+	text-align: left;
+	padding: 5px 20px 0 20px;
+
+} */
+
+.sidenav li a:hover {
+	text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+select {
+	width: 170px;
+	height: 25px;
+	font: normal 150% 'Times New Roman', arial, sans-serif;
+	overflow: hidden;
+	border: #FEFEFE 1px solid;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+	box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+	margin-left: 15px;
+}
+
+.innovation{
+	position: relative;
+	padding: 10px 0 0 40px;
+	font: normal 150% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/icons8-idea-64.png) no-repeat left bottom;
+	background-size: 3.5%;
+}
+
+.patent{
+	position: relative;
+	padding: 20px 0 0 35px;
+	font: normal 150% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/patent.png) no-repeat left bottom;
+	background-size: 2.7%;
+}
+
+.manufacturing{
+	position: relative;
+	padding: 10px 0 0 35px;
+	font: normal 150% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/gear.png) no-repeat left bottom;
+	background-size: 3%;
+}
+
+.research{
+	position: relative;
+	padding: 10px 0 0 35px;
+	font: normal 150% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/icons8-microscope-50.png) no-repeat left bottom;
+	background-size: 4%;
+}
+
+.usd{
+	position: relative;
+	padding: 10px 0 0 35px;
+	font: normal 150% arial, sans-serif;
+	color: black;
+	letter-spacing: 0em;	
+	font-weight:bold;
+	line-height: 1.5;
+	background: url(../images/dollar.png) no-repeat left bottom;
+	background-size: 3%;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.highlight {
+	color: red;
+	font-weight:bold;
+}
+
+.maroon{
+	color: maroon;
+	font-weight:bold;
+}
