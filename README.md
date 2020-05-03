@@ -10,7 +10,7 @@ https://hning87.github.io/DATS6401-Data-Visualization-Final-Project/
 ## Data Source
 https://data.worldbank.org/   
 
-## Porject Description
+## Project Description
 Innovation means "a new idea, method, device, or the introduction of something new". The measurement of innovation proved to be inherently difficult, and what makes a country the benchmark for innovation? Many research studies suggest to rank the innovation strength of the countries by comparing patents, R&D etc.    
 This project uses visualization to analyse the key indicators of innovation including:
 * Patent applications    
