@@ -1,6 +1,6 @@
 # DATS6401-Data-Visualization-Final-Project
 # Most Innovative Country Analysis
-Github.io:   
+Visulization webpage:   
 https://hning87.github.io/DATS6401-Data-Visualization-Final-Project/   
 
 ## Development Platforms
